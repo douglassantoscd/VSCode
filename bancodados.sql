@@ -4,9 +4,7 @@ USE db_adocaogatos
 
 CREATE TABLE Gatos (
     id_gato INT NOT NULL AUTO_INCREMENT,
-    nome VARCHAR(55) NOT NULL,
     data_nasc DATE,
-    raca VARCHAR(50) DEFAULT 'SRD',
     vacinacao TEXT, 
     sexo ENUM('Macho', 'Fêmea') NOT NULL,
     disponibilidade BOOLEAN DEFAULT TRUE, 
